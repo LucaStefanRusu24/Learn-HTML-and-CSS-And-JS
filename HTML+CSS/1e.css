@@ -1,0 +1,86 @@
+.amazon{
+  font-size: 12;
+  color: rgb(57, 142, 223);
+  transition: color 0.15s;
+}
+
+.amazon:hover{
+  color: orange;
+ }
+
+.title{
+  font-size: 18;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.price{
+  color: rgb(0,118,0);
+  font-size: 14;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.delivery{
+  margin-bottom: 5px;
+}
+
+.cart{
+  background-color: rgb(255,216,20);
+  border: none;
+  height: 35px;
+  width: 105px;
+  border-radius: 17.5px;
+  font-size: 14;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.cart:hover{
+  background-color: rgb(232, 199, 34);
+}
+
+.cart:active{
+  opacity: 0.3;
+}
+
+.buy{
+  background-color: rgb(255,164,28);
+  border: none;
+  height: 35px;
+  width: 105px;
+  border-radius: 17.5px;
+  font-size: 14;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.buy:hover{
+  background-color: rgb(220, 141, 22);
+}
+
+.buy:active{
+  opacity: 0.3;
+}
+
+.stretch{
+  background-color: green;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  transition: padding 0.5s;
+  vertical-align: top;
+}
+
+.stretch:hover{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
