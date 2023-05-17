@@ -1,0 +1,36 @@
+.google{
+  display: block;
+  margin-bottom: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+}
+
+.logo{
+  text-align: center;
+}
+
+.search-bar{
+  width: 300px;
+  border: none;
+  border-radius: 17.5px;
+  box-shadow:  1px 1px rgba(0.3,0.3,0.3,0.3);
+}
+
+.google-search,
+.feeling-lucky{
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.feeling-lucky{
+  margin-left: 6px;
+}
+
+.button{
+  padding-top: 20px;
+  text-align: center;
+}
